@@ -3,7 +3,7 @@ pipeline {
 			environment{
 				RELEASE_VERSION = "1.0.1"
                 VSTest = tool 'vstest'	
-				MSBuild = tool 'msbuild'
+				MSBuild = tool 'MSBUILD'
 				Nuget = 'C:\\Program Files (x86)\\Jenkins\\nuget.exe'
 				MSDeploy = "C:\\Program Files (x86)\\IIS\\Microsoft Web Deploy V3\\msdeploy.exe"
             }
